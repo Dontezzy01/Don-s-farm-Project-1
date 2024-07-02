@@ -17,375 +17,397 @@
   <script defer src="js/script.js"></script>
 </head>
 
-<body class="background">
-  <header class="header">
-    <nav class="nav">
-      <img src="img/logo.png" alt="Bankist logo" class="nav__logo" id="logo" designer="Jonas"
-        data-version-number="3.0" />
-      <ul class="nav__links">
-        <li class="nav__item">
-          <a class="nav__link" href="#section--1">Home</a>
+<body>
+
+  <nav class="nav">
+    <div>
+      <img src="img/logo.png" alt="donfarm-logo" class="nav__logo" id="logo" designer="Ace" data-version-number="3.0" />
+    </div>
+    <ul class="nav__links">
+      <li class="nav__item">
+        <a class="nav__link" href="#section--1">Home</a>
+      </li>
+      <li class="nav__item">
+        <a class="nav__link" href="#section--2">Services</a>
+      </li>
+      <li class="nav__item">
+        <a class="nav__link" href="#section--3">About Us</a>
+      </li>
+      <li class="nav__item">
+        <a class="nav__link nav__link--btn btn--show-modal" href="#">Sign up</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- container -->
+  <div class="container">
+    <!-- header section -->
+    <header class="header">
+      <div class="row">
+        <div class="col">
+          <h1>
+            Transforming
+            <!-- Green highlight effect -->
+            <span class="highlight">farms</span>
+            with<br />
+            <span class="highlight">premium livestock</span>
+          </h1>
+          <p>
+            Your partner for thriving farms, guaranteed and experience farming
+            redefined with us.
+          </p>
+          <button class="btn--text btn--scroll-to">Explore &DownArrow;</button>
+        </div>
+        <div class="col">
+          <img src="img/chick-hero.jpg" class="header__img" alt="farm items" />
+        </div>
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Features</h2>
+        <h3 class="section__header">
+          Meet the Farm Fam: Your Agri-Revolutionaries!
+        </h3>
+      </div>
+
+      <div class="features">
+        <img src="img/wide-lazy.jpg" data-src="img/wide.jpg" alt="Computer" class="features__img lazy-img" />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-twitter"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Wide Variety of Livestock</h5>
+          <p>
+            Offer a diverse range of day-old chicks, including broilers,
+            cockerels, noilers, pullets, turkey( Local and Foreign) and other
+            popular breeds to cater to the needs of different farmers.
+          </p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-feather"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">High Quality Breeds</h5>
+          <p>
+            Ensure that all livestock offered are of premium quality healthy and
+            well bred to provide customers with the best start for their farms.
+          </p>
+        </div>
+        <img src="img/high-lazy.jpg" data-src="img/high.jpg" alt="high" class="features__img lazy-img" />
+
+        <img src="img/delivery-lazy.jpg" data-src="img/delivery.jpg" alt="delivery" class="features__img lazy-img" />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-map-pin"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Nationwide Delivery</h5>
+          <p>
+            Provide a reliable and efficient nationawide delivery service to
+            reach customers in various locations across Nigeria, ensuring
+            convenience and accessibility.
+          </p>
+        </div>
+      </div>
+
+      <div class="features">
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-award"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Customer Support</h5>
+          <p>
+            Offer exceptional customer services to address inquiries, provide
+            assistance with orders, and offer guidance on livestock care and
+            management.
+          </p>
+        </div>
+        <img src="img/support-lazy.jpg" data-src="img/support.jpg" alt="support" class="features__img lazy-img" />
+
+        <img src="img/online-lazy.jpg" data-src="img/online.jpg" alt="online" class="features__img lazy-img" />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-chrome"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Online Ordering Platform</h5>
+          <p>
+            Develop an easy to use online platform where customers can browse
+            available livestock, place order on our social media be it on our
+            Facebook, Twitter, Gmail, WhatsApp, Telegram and others.
+          </p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-book"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Educational Resources</h5>
+          <p>
+            Provide educational resources such as articles, guides, and videos,
+            on livestock farmimng practices, management techniques, and tips for
+            optimizing farm productivity.
+          </p>
+        </div>
+
+        <img src="img/education-lazy.jpg" data-src="img/education.jpg" alt="education" class="features__img lazy-img" />
+        <img src="img/health-lazy.jpg" data-src="img/health.jpg" alt="health" class="features__img lazy-img" />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-droplet"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Health Guarantee</h5>
+          <p>
+            Offer a health guarantee for all livestock sold, assuring customers
+            of the health and well being of chicks upon delivery.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Services</h2>
+        <h3 class="section__header">
+          Meet Our Farming Mavericks: Driving Agricultural Innovation!
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button class="btn operations__tab operations__tab--1 operations__tab--active" data-tab="1">
+            <span>01</span>Order!
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Delivery!
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Quality!
+          </button>
+          <button class="btn operations__tab operations__tab--4" data-tab="4">
+            <span>04</span>Acquistion!
+          </button>
+          <button class="btn operations__tab operations__tab--5" data-tab="5">
+            <span>05</span>Farm Support!
+          </button>
+        </div>
+
+
+        <div class="operations__content operations__content--1 operations__content--active">
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-cast"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Ready to level up your farm game? Order now!.
+          </h5>
+          <p>
+            Receiving, reviewing, and fulfilling customer orders
+            accurately and efficiently, including packaging for delivery.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-check"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Nationwide delivery for your convenience....No dulling!
+          </h5>
+          <p>
+            Coordinating logistics for nationwide delivery of livestock orders, including transportation and scheduling.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-info"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Ready to optimize your farm's productivity? Choose from our selection of top quality now!
+          </h5>
+          <p>
+            Implementing quality control measures to ensure that all livestock meet company standards for health,
+            genetics,
+            and welfare.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--4">
+          <div class="operations__icon operations__icon--4">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-chrome"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Don't wait, secure your stock today!
+          </h5>
+          <p>
+            Procuring day-old chicks from reputable breeders or hatcheries to ensure high-quality stock for resale.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--5">
+          <div class="operations__icon operations__icon--5">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-database"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Elevate your farm's potential today! read through our articles.
+          </h5>
+          <p>
+            Offering guidance and resources to customers on livestock management practices, nutrition, health care, and
+            best
+            farming practices.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Want to know about us?</h2>
+        <h3 class="section__header">
+          Who We Are: Farming Fanatics on a Mission.
+        </h3>
+      </div>
+
+      <div class="about">
+        <h3 class="about__head">Mission statement</h3>
+        <p class="about__para">At Don's Farm, our mission is to revolutionize the agricultural landscape in Nigeria by
+          addressing the challenges faced by farmers and empowering them with innovative solutions. Founded in 2023 by
+          Sulaimon Quadri Dolapo, our journey began with a vision to transform traditional farming practices into
+          modern,
+          efficient, and sustainable operations.
+        </p>
+        <p class="about__para">We aim to provide comprehensive support to farmers, offering a range of services and
+          products
+          tailored to their needs. By leveraging technology, expertise, and a deep understanding of the agricultural
+          sector,
+          we strive to enhance productivity, profitability, and sustainability in farming communities across Nigeria</p>
+
+        <h3 class="about__head">Our committment to excellence</h3>
+        <p class="about__para">Since our inception in 2023, Don's Farm has been committed to excellence in every aspect
+          of
+          our operations. From the quality of our livestock to the efficiency of our delivery service, we hold ourselves
+          to
+          the highest standards to ensure the satisfaction and success of our customers.</p>
+
+        <h3 class="about__head">Vision for future</h3>
+        <p class="about__para">As we look ahead, we envision Don's Farm as not just a provider of livestock but as a
+          comprehensive resource for farmers nationwide. We are dedicated to expanding our offerings to include
+          additional
+          entities such as Don's Poultry, Don's Feeds, Don's Vet, and Don's Hatchery, further cementing our position as
+          a
+          leader in the agricultural sector.</p>
+        <ul>
+          <li class="about__para"><span class="span_about">Don's Poultry:</span> Offering a wide selection of
+            high-quality
+            poultry breeds, feed, and accessories to support poultry farming ventures.</li>
+          <li class="about__para"><span class="span_about">Don's Feeds:</span> Providing nutritious and affordable
+            animal
+            feed formulations to optimize livestock health and performance.</li>
+          <li class="about__para"><span class="span_about">Don's Vet:</span> Delivering expert veterinary services and
+            healthcare solutions to ensure the well-being and welfare of farm animals.</li>
+          <li class="about__para"><span class="span_about">Don's Hatchery:</span> Supplying premium day-old chicks and
+            hatchery services to meet the growing demand for quality breeding stock.</li>
+        </ul>
+
+        <h3 class="about__head">Our Team</h3>
+        <p class="about__para">At Don's Farm, we are proud to have assembled a team of skilled professionals who share
+          our
+          passion for agriculture and dedication to customer service. From our expert breeders to our logistics
+          specialists,
+          each member of our team plays a vital role in our mission to support and uplift farmers across Nigeria.And we
+          are
+          committed to empowering farmers, enriching communities, and shaping a brighter future for agriculture in
+          Nigeria.
+        </p>
+
+        <h3 class="about__head">Thank you for choosing Don's Farm.</h3>
+        <p class="about__para">We extend our sincere gratitude to our customers, partners, and supporters who have
+          joined us
+          on this journey. Your trust and loyalty inspire us to continue striving for excellence and innovation in
+          everything we do. Together, let us build a brighter future for agriculture in Nigeria.</p>
+        <p class="about__title">Thank you for choosing Don's Farm – where farming excellence begins.</p>
+      </div>
+    </section>
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          Grow with confidence, farm with us
+        </h3>
+      </div>
+
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">About</a>
         </li>
-        <li class="nav__item">
-          <a class="nav__link" href="#section--2">Services</a>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Pricing</a>
         </li>
-        <li class="nav__item">
-          <a class="nav__link" href="#section--3">About Us</a>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Terms of Use</a>
         </li>
-        <li class="nav__item">
-          <a class="nav__link nav__link--btn btn--show-modal" href="#">Sign up</a>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Careers</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contact Us</a>
         </li>
       </ul>
-    </nav>
+      <img src="img/logo.png" alt="Logo" class="footer__logo" />
+    </footer>
 
-    <div class="header__title">
-      <!-- <h1 onclick="alert('HTML alert')"> -->
-      <h1>
-        Transforming
-        <!-- Green highlight effect -->
-        <span class="highlight">farms</span>
-        with<br />
-        <span class="highlight">premium livestock</span>
-      </h1>
-      <h4>
-        Your partner for thriving farms, guaranteed and experience farming
-        redefined with us.
-      </h4>
-      <button class="btn--text btn--scroll-to">Explore &DownArrow;</button>
-      <img src="img/chick-hero.jpg" class="header__img" alt="farm items" />
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Open your bank account <br />
+        in just <span class="highlight">5 minutes</span>
+      </h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+        <button class="btn">Next step &rarr;</button>
+      </form>
     </div>
-  </header>
-
-  <section class="section" id="section--1">
-    <div class="section__title">
-      <h2 class="section__description">Features</h2>
-      <h3 class="section__header">
-        Meet the Farm Fam: Your Agri-Revolutionaries!
-      </h3>
-    </div>
-
-    <div class="features">
-      <img src="img/wide-lazy.jpg" data-src="img/wide.jpg" alt="Computer" class="features__img lazy-img" />
-      <div class="features__feature">
-        <div class="features__icon">
-          <svg>
-            <use xlink:href="img/icons.svg#icon-twitter"></use>
-          </svg>
-        </div>
-        <h5 class="features__header">Wide Variety of Livestock</h5>
-        <p>
-          Offer a diverse range of day-old chicks, including broilers,
-          cockerels, noilers, pullets, turkey( Local and Foreign) and other
-          popular breeds to cater to the needs of different farmers.
-        </p>
-      </div>
-
-      <div class="features__feature">
-        <div class="features__icon">
-          <svg>
-            <use xlink:href="img/icons.svg#icon-feather"></use>
-          </svg>
-        </div>
-        <h5 class="features__header">High Quality Breeds</h5>
-        <p>
-          Ensure that all livestock offered are of premium quality healthy and
-          well bred to provide customers with the best start for their farms.
-        </p>
-      </div>
-      <img src="img/high-lazy.jpg" data-src="img/high.jpg" alt="high" class="features__img lazy-img" />
-
-      <img src="img/delivery-lazy.jpg" data-src="img/delivery.jpg" alt="delivery" class="features__img lazy-img" />
-      <div class="features__feature">
-        <div class="features__icon">
-          <svg>
-            <use xlink:href="img/icons.svg#icon-map-pin"></use>
-          </svg>
-        </div>
-        <h5 class="features__header">Nationwide Delivery</h5>
-        <p>
-          Provide a reliable and efficient nationawide delivery service to
-          reach customers in various locations across Nigeria, ensuring
-          convenience and accessibility.
-        </p>
-      </div>
-    </div>
-
-    <div class="features">
-      <div class="features__feature">
-        <div class="features__icon">
-          <svg>
-            <use xlink:href="img/icons.svg#icon-award"></use>
-          </svg>
-        </div>
-        <h5 class="features__header">Customer Support</h5>
-        <p>
-          Offer exceptional customer services to address inquiries, provide
-          assistance with orders, and offer guidance on livestock care and
-          management.
-        </p>
-      </div>
-      <img src="img/support-lazy.jpg" data-src="img/support.jpg" alt="support" class="features__img lazy-img" />
-
-      <img src="img/online-lazy.jpg" data-src="img/online.jpg" alt="online" class="features__img lazy-img" />
-      <div class="features__feature">
-        <div class="features__icon">
-          <svg>
-            <use xlink:href="img/icons.svg#icon-chrome"></use>
-          </svg>
-        </div>
-        <h5 class="features__header">Online Ordering Platform</h5>
-        <p>
-          Develop an easy to use online platform where customers can browse
-          available livestock, place order on our social media be it on our
-          Facebook, Twitter, Gmail, WhatsApp, Telegram and others.
-        </p>
-      </div>
-
-      <div class="features__feature">
-        <div class="features__icon">
-          <svg>
-            <use xlink:href="img/icons.svg#icon-book"></use>
-          </svg>
-        </div>
-        <h5 class="features__header">Educational Resources</h5>
-        <p>
-          Provide educational resources such as articles, guides, and videos,
-          on livestock farmimng practices, management techniques, and tips for
-          optimizing farm productivity.
-        </p>
-      </div>
-
-      <img src="img/education-lazy.jpg" data-src="img/education.jpg" alt="education" class="features__img lazy-img" />
-      <img src="img/health-lazy.jpg" data-src="img/health.jpg" alt="health" class="features__img lazy-img" />
-      <div class="features__feature">
-        <div class="features__icon">
-          <svg>
-            <use xlink:href="img/icons.svg#icon-droplet"></use>
-          </svg>
-        </div>
-        <h5 class="features__header">Health Guarantee</h5>
-        <p>
-          Offer a health guarantee for all livestock sold, assuring customers
-          of the health and well being of chicks upon delivery.
-        </p>
-      </div>
-    </div>
-  </section>
-</body>
-
-</html>
-
-<section class="section" id="section--2">
-  <div class="section__title">
-    <h2 class="section__description">Services</h2>
-    <h3 class="section__header">
-      Meet Our Farming Mavericks: Driving Agricultural Innovation!
-    </h3>
+    <div class="overlay hidden"></div>
   </div>
-
-  <div class="operations">
-    <div class="operations__tab-container">
-      <button class="btn operations__tab operations__tab--1 operations__tab--active" data-tab="1">
-        <span>01</span>Order!
-      </button>
-      <button class="btn operations__tab operations__tab--2" data-tab="2">
-        <span>02</span>Delivery!
-      </button>
-      <button class="btn operations__tab operations__tab--3" data-tab="3">
-        <span>03</span>Quality!
-      </button>
-      <button class="btn operations__tab operations__tab--4" data-tab="4">
-        <span>04</span>Acquistion!
-      </button>
-      <button class="btn operations__tab operations__tab--5" data-tab="5">
-        <span>05</span>Farm Support!
-      </button>
-    </div>
-
-
-    <div class="operations__content operations__content--1 operations__content--active">
-      <div class="operations__icon operations__icon--1">
-        <svg>
-          <use xlink:href="img/icons.svg#icon-cast"></use>
-        </svg>
-      </div>
-      <h5 class="operations__header">
-        Ready to level up your farm game? Order now!.
-      </h5>
-      <p>
-        Receiving, reviewing, and fulfilling customer orders
-        accurately and efficiently, including packaging for delivery.
-      </p>
-    </div>
-
-    <div class="operations__content operations__content--2">
-      <div class="operations__icon operations__icon--2">
-        <svg>
-          <use xlink:href="img/icons.svg#icon-check"></use>
-        </svg>
-      </div>
-      <h5 class="operations__header">
-        Nationwide delivery for your convenience....No dulling!
-      </h5>
-      <p>
-        Coordinating logistics for nationwide delivery of livestock orders, including transportation and scheduling.
-      </p>
-    </div>
-
-    <div class="operations__content operations__content--3">
-      <div class="operations__icon operations__icon--3">
-        <svg>
-          <use xlink:href="img/icons.svg#icon-info"></use>
-        </svg>
-      </div>
-      <h5 class="operations__header">
-        Ready to optimize your farm's productivity? Choose from our selection of top quality now!
-      </h5>
-      <p>
-        Implementing quality control measures to ensure that all livestock meet company standards for health, genetics,
-        and welfare.
-      </p>
-    </div>
-
-    <div class="operations__content operations__content--4">
-      <div class="operations__icon operations__icon--4">
-        <svg>
-          <use xlink:href="img/icons.svg#icon-chrome"></use>
-        </svg>
-      </div>
-      <h5 class="operations__header">
-        Don't wait, secure your stock today!
-      </h5>
-      <p>
-        Procuring day-old chicks from reputable breeders or hatcheries to ensure high-quality stock for resale.
-      </p>
-    </div>
-
-    <div class="operations__content operations__content--5">
-      <div class="operations__icon operations__icon--5">
-        <svg>
-          <use xlink:href="img/icons.svg#icon-database"></use>
-        </svg>
-      </div>
-      <h5 class="operations__header">
-        Elevate your farm's potential today! read through our articles.
-      </h5>
-      <p>
-        Offering guidance and resources to customers on livestock management practices, nutrition, health care, and best
-        farming practices.
-      </p>
-    </div>
-  </div>
-</section>
-
-<section class="section" id="section--3">
-  <div class="section__title section__title--testimonials">
-    <h2 class="section__description">Want to know about us?</h2>
-    <h3 class="section__header">
-      Who We Are: Farming Fanatics on a Mission.
-    </h3>
-  </div>
-
-  <div class="about">
-    <h3 class="about__head">Mission statement</h3>
-    <p class="about__para">At Don's Farm, our mission is to revolutionize the agricultural landscape in Nigeria by
-      addressing the challenges faced by farmers and empowering them with innovative solutions. Founded in 2023 by
-      Sulaimon Quadri Dolapo, our journey began with a vision to transform traditional farming practices into modern,
-      efficient, and sustainable operations.
-    </p>
-    <p class="about__para">We aim to provide comprehensive support to farmers, offering a range of services and products
-      tailored to their needs. By leveraging technology, expertise, and a deep understanding of the agricultural sector,
-      we strive to enhance productivity, profitability, and sustainability in farming communities across Nigeria</p>
-
-    <h3 class="about__head">Our committment to excellence</h3>
-    <p class="about__para">Since our inception in 2023, Don's Farm has been committed to excellence in every aspect of
-      our operations. From the quality of our livestock to the efficiency of our delivery service, we hold ourselves to
-      the highest standards to ensure the satisfaction and success of our customers.</p>
-
-    <h3 class="about__head">Vision for future</h3>
-    <p class="about__para">As we look ahead, we envision Don's Farm as not just a provider of livestock but as a
-      comprehensive resource for farmers nationwide. We are dedicated to expanding our offerings to include additional
-      entities such as Don's Poultry, Don's Feeds, Don's Vet, and Don's Hatchery, further cementing our position as a
-      leader in the agricultural sector.</p>
-    <ul>
-      <li class="about__para"><span class="span_about">Don's Poultry:</span> Offering a wide selection of high-quality
-        poultry breeds, feed, and accessories to support poultry farming ventures.</li>
-      <li class="about__para"><span class="span_about">Don's Feeds:</span> Providing nutritious and affordable animal
-        feed formulations to optimize livestock health and performance.</li>
-      <li class="about__para"><span class="span_about">Don's Vet:</span> Delivering expert veterinary services and
-        healthcare solutions to ensure the well-being and welfare of farm animals.</li>
-      <li class="about__para"><span class="span_about">Don's Hatchery:</span> Supplying premium day-old chicks and
-        hatchery services to meet the growing demand for quality breeding stock.</li>
-    </ul>
-
-    <h3 class="about__head">Our Team</h3>
-    <p class="about__para">At Don's Farm, we are proud to have assembled a team of skilled professionals who share our
-      passion for agriculture and dedication to customer service. From our expert breeders to our logistics specialists,
-      each member of our team plays a vital role in our mission to support and uplift farmers across Nigeria.And we are
-      committed to empowering farmers, enriching communities, and shaping a brighter future for agriculture in Nigeria.
-    </p>
-
-    <h3 class="about__head">Thank you for choosing Don's Farm.</h3>
-    <p class="about__para">We extend our sincere gratitude to our customers, partners, and supporters who have joined us
-      on this journey. Your trust and loyalty inspire us to continue striving for excellence and innovation in
-      everything we do. Together, let us build a brighter future for agriculture in Nigeria.</p>
-    <p class="about__title">Thank you for choosing Don's Farm – where farming excellence begins.</p>
-  </div>
-</section>
-<section class="section section--sign-up">
-  <div class="section__title">
-    <h3 class="section__header">
-      Grow with confidence, farm with us
-    </h3>
-  </div>
-
-</section>
-
-<footer class="footer">
-  <ul class="footer__nav">
-    <li class="footer__item">
-      <a class="footer__link" href="#">About</a>
-    </li>
-    <li class="footer__item">
-      <a class="footer__link" href="#">Pricing</a>
-    </li>
-    <li class="footer__item">
-      <a class="footer__link" href="#">Terms of Use</a>
-    </li>
-    <li class="footer__item">
-      <a class="footer__link" href="#">Privacy Policy</a>
-    </li>
-    <li class="footer__item">
-      <a class="footer__link" href="#">Careers</a>
-    </li>
-    <li class="footer__item">
-      <a class="footer__link" href="#">Blog</a>
-    </li>
-    <li class="footer__item">
-      <a class="footer__link" href="#">Contact Us</a>
-    </li>
-  </ul>
-  <img src="img/logo.png" alt="Logo" class="footer__logo" />
-</footer>
-
-<div class="modal hidden">
-  <button class="btn--close-modal">&times;</button>
-  <h2 class="modal__header">
-    Open your bank account <br />
-    in just <span class="highlight">5 minutes</span>
-  </h2>
-  <form class="modal__form">
-    <label>First Name</label>
-    <input type="text" />
-    <label>Last Name</label>
-    <input type="text" />
-    <label>Email Address</label>
-    <input type="email" />
-    <button class="btn">Next step &rarr;</button>
-  </form>
-</div>
-<div class="overlay hidden"></div>
-
 </body>
 
 </html>
