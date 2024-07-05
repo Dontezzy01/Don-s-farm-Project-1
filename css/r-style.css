@@ -9,11 +9,25 @@
         display: none;
     }
 
+    .operations__content {
+        padding: 0 2rem 3.5rem;
+    }
+
     .operations__tab {
         padding: 0.25rem 2.5rem;
     }
+
+    .operations__icon {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .operations__header {
+        font-size: 2rem;
+    }
 }
 
+/* mobile devices */
 @media (max-width:550px) {
     header h1 {
         font-size: 2rem;
@@ -27,8 +41,27 @@
     header p {
         font-size: 15px;
     }
+
     .operations__tab {
         padding: 1rem;
     }
 
+    .operations__icon {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .operations__content {
+        display: block;
+        margin-bottom: 2rem;
+        padding: 0px;
+    }
+
+    .operations__header {
+        font-size: 1.7rem;
+    }
+
+    .operations__content p {
+        font-size: 1.2rem;
+    }
 }
