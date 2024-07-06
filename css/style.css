@@ -65,7 +65,7 @@ body {
 }
 
 .section {
-  margin: 8rem 0;
+  margin: 5rem 0;
 }
 
 .d-flex {
@@ -305,6 +305,7 @@ header p {
 .operations__tab--5:hover {
   background-color: orangered;
 }
+
 /* operation content */
 .operations__content {
   display: flex;
@@ -313,13 +314,6 @@ header p {
   font-size: 1.7rem;
   padding: 2.5rem 7rem 6.5rem 7rem;
 }
-
-/* .operations__content--active {
-  display: grid;
-  grid-template-columns: 7rem 1fr;
-  column-gap: 3rem;
-  row-gap: 0.5rem;
-} */
 
 .operations__header {
   font-size: 2.3rem;
@@ -336,6 +330,7 @@ header p {
   margin-right: 2rem;
   padding: 10px;
 }
+
 /* .operations__content p {
   grid-column: 2;
 } */
@@ -381,38 +376,66 @@ header p {
 }
 
 /* About Us */
-.about {
-  background-color: white;
-  max-width: 100rem;
-  height: 145rem;
-  margin: 10px auto;
-  padding: 10px;
-  position: relative;
-
-  /* IN THE END */
-  overflow: hidden;
+#about {
+  background: #010101;
+  padding: 20px;
 }
 
-.about__title {
-  line-height: 1.5;
-  font-weight: 700;
-  text-align: center;
-  justify-content: center;
-  font-size: 1.5rem;
-  color: #7e6768;
+.about_title {
+  background: #010101;
+  color: var(--white);
+  margin-bottom: 20px;
+}
+
+.about_title h2 {
+  font-size: 5rem;
+}
+
+.about_title p {
+  color: var(--color-secondary-darker);
+  font-size: 2rem;
+}
+
+/* .about {
+  padding: 20px;
+  background-color: var(--bg-dark);
+  border-radius: 30px 0;
+} */
+
+
+.mb-1 {
+  margin-bottom: 10px;
 }
 
 .about__head {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #000;
+  color: var(--color-secondary);
+  display: flex;
+  align-items: center;
+}
+
+.about__head>span {
+  width: 2rem;
+  height: 1rem;
+  border-radius: 10px;
+  background: var(--white);
+  margin-right: 10px;
 }
 
 .about__para {
-  color: Green;
-  /* #666; */
-  font-size: 2rem;
-  font-weight: 500;
+  color: var(--white);
+  font-size: 1.3rem;
+  margin-left: 50px;
+  line-height: 1.2;
+}
+
+.yellow {
+  background: var(--color-secondary-darker);
+  padding: 5px;
+  color: var(--white);
+  font-size: 1.3rem;
+  font-style: oblique;
 }
 
 .span_about {
